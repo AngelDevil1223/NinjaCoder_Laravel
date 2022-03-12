@@ -1,0 +1,159 @@
+.header {
+	width: 100%;
+	background-color: rgb(191, 191, 191);
+	opacity: 0.9;
+}
+.main_container {
+	width: 900px;
+	height: 130px;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+.logo_div {
+	width: 130px;
+	display: inline-block;
+}
+.main_logo {
+	width: 100%;
+}
+.he_an_div {
+	width: 650px;
+	display: inline-block;
+}
+.main_h_img {
+	width: 100%;
+	height: 70%;
+}
+.header_tab {
+	width: 370px;
+	margin: auto;
+}
+.tab {
+	display: inline-block;
+	border: none;
+	background-color: rgb(191, 191, 191);
+	margin-right: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.tab:hover {
+	background-color: rgb(233, 233, 233);
+}
+.log_out {
+	display: inline-block;
+	padding-left: 60px;
+	padding-bottom: 0px;
+	padding-top: 40px;
+	width: 120px;
+}
+
+.tab_1 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.user_id_input {
+	background-color: rgb(191, 191 , 191);
+	opacity: 0.9;
+	border: none;
+	font-size: 14px;
+	display: inline-block;
+	width: 100%;
+}
+.logbtndiv {
+	display: none;
+}
+.log_out:hover .logbtndiv {
+	display: block;
+}
+.user_avatar {
+	width: 40px;
+	display: inline-block;
+}
+.user_div {
+	width: 100px;
+}
+@media only screen and (max-width: 904px) {
+	.main_container {
+		width: 520px;
+		height: 80px;
+		margin: auto;
+	}
+	.logo_div {
+		width: 80px;
+		height: 80px;
+	}
+	.main_logo {
+		width: 100%;
+		height: 100%;
+	}
+	.he_an_div {
+		width: 350px;
+	}
+	.header_tab {
+		width: 300px;
+	}
+	#tab_1 {
+		font-size: 15px;
+	}
+	#tab_2 {
+		font-size: 15px;
+	}
+	#tab_3 {
+		font-size: 15px;
+	}
+	.user_id_input {
+		display: none;
+	}
+	.log_out {
+		width: 80px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+}
+@media only screen and (max-width: 559px) {
+	.main_container {
+		width: 430px;
+	}
+	.logo_div {
+		display: none;
+	}
+	.logout_btn {
+		font-size: 12px;
+		padding: 1px;
+	}
+	.user_avatar {
+		width: 40px;
+	}
+	.user_div {
+		width: 60px;
+	}
+	.user_avatar .logbtndiv {
+		top: 5%;
+	}
+}
+@media only screen and (max-width: 437px) {
+	.main_container {
+		width: 345px;
+	}
+	.logo_div {
+		display: none;
+	}
+	.he_an_div {
+		width: 345px;
+	}
+	.logout_btn {
+		font-size: 12px;
+		padding: 2px;
+	}
+	.log_out {
+		width: 40px;
+	}
+	.user_avatar {
+		width: 30px;
+	}
+	.user_div {
+		width: 30px;
+	}
+}
+
